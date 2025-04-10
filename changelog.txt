@@ -1,0 +1,49 @@
+3.0.0 =======
+- Nouvelle API automne 2024
+
+2.0.7 ====
+- Fix slug pour TVA
+2.0.6 ====
+- Fix régression Kodi 18
+
+2.0.5 ==== 
+- Fix pour Kodi 20
+
+2.0.4 ====
+- Les streams en direct ne sont plus disponible avec les émissions en ratrappage. Le code a été refait pour aller les chercher a part. Le stream en direct sont maintenant directement dans le menu parent. Plus besoin de faire 2 étapes pour le démarer.
+
+2.0.3 =====
+- Corrigé où le nom du stream en direct est pris dans le json. TVA a enlevé un champ
+
+2.0.2 =======
+- Corrige Zeste,TVA sport et Evasion qui ne marchait plus.
+- Enleve les items qui ne sont pas des emissions (comme des nouvelles de sport).
+- Corrige les emissions qui etaient vide parce qu'ils n'ont pas de saison. Comme les emissions d'humour.
+
+2.0.1 =======
+- Corrige nouvelle URL utilisé par TVA+
+
+2.0.0 =======
+- Nouvelle API et support de kodi 19
+
+1.0.2 =======
+- Corriger le son absent sur certains appareils
+
+1.0.1 =======
+- https://videos.tva.ca/ nécessite TLS 1.2 qui n'est disponible que sur Krypton (17)
+- Ajout des items contenus sur la page d'accueil
+
+1.0.0 =======
+- Ajout des conteneurs pour mieux classer le contenu
+- Version complète fonctionnelle
+
+0.0.3 =======
+-Rework complet pour simplifier le plugin
+-Le video en direct fonctionne maintenant
+-Le contenu video fonctionne maintenant
+
+0.0.2 =======
+-Correction d'un bug de PK
+
+0.0.1 =======
+-Première version

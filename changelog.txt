@@ -1,3 +1,6 @@
+3.0.0b
+- Ajout du dossier de A à Z
+
 3.0.0 =======
 - Nouvelle API automne 2024
 
